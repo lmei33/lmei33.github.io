@@ -14,7 +14,7 @@ comments: true
 
 [Check out My Colab Notebook to find out the detailed process](https://colab.research.google.com/drive/16ApThe1fjet-1ezSugUQ6Z-uhqiFx6MI)
 
-![Moon Homepage](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
+![0](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
 
       
@@ -31,21 +31,21 @@ The original data is from IBM HR Analytics Employee Attrition & Performance:
 
 ### EDA 
 * Attrition Proportion
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/1.png)    
+![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/1.png)    
 
 * Attrition Factors Heatmap
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/2.png) 
+![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/2.png) 
 
 * Take a look at the objective factors
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/3.png) 
+![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/3.png) 
 
 * Analysis on Monthly Income
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/4.png) 
+![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/4.png) 
   Break the result by Job Involvement
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/5.png) 
+![5](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/5.png) 
 
 * Satisfaction
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/6.png)
+![6](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/6.png)
 
 
 ### Model
@@ -74,8 +74,8 @@ print(acc_logreg)
 ---
 
 * Confusion Matrix
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/7.png)
+![7](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/7.png)
 
 * Top 6 Influential Factors
-![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/8.png)
+![8](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/8.png)
 
