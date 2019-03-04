@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-[Link to My Colab Notebook](https://colab.research.google.com/drive/16ApThe1fjet-1ezSugUQ6Z-uhqiFx6MI)
+[Check out My Colab Notebook to find out detailed process](https://colab.research.google.com/drive/16ApThe1fjet-1ezSugUQ6Z-uhqiFx6MI)
 
 ![Moon Homepage](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
@@ -30,20 +30,52 @@ The original data is from IBM HR Analytics Employee Attrition & Performance:
 ### Data Ingest
 
 ### EDA 
+* Attrition Proportion
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/1.png)    
+
+* Attrition Factors Heatmap
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/2.png) 
+
+* Take a look at the objective factors
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/3.png) 
+
+* Analysis on Monthly Income
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/4.png) 
+  Break the result by Job Involvement
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/5.png) 
+
+* Satisfaction
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/6.png)
+
+
+### Model
+After several trials, I chose Logistic Regression
+
 ---
 
 {% highlight yaml %}
-# Attrition Proportion
-my_circle=plt.Circle( (0,0), 0.7, color='white')
-plt.pie(size, labels=names, colors=['lightcoral','cornflowerblue'],autopct='%1.0f%%')
-p=plt.gcf()
-p.gca().add_artist(my_circle)
-ax = plt.axes()
-ax.set_title("Attrition Proportion")
-plt.show()
+from sklearn.model_selection import train_test_split
+
+predictors = IBM_Attrition_Nu.drop(['Attrition'], axis=1)
+target = IBM_Attrition_Nu["Attrition"]
+x_train, x_val, y_train, y_val = train_test_split(predictors, target, test_size = 0.22, random_state = 0)
+
+from sklearn.metrics import accuracy_score
+from sklearn.linear_model import LogisticRegression
+
+logreg = LogisticRegression()
+logreg.fit(x_train, y_train)
+y_pred = logreg.predict(x_val)
+acc_logreg = round(accuracy_score(y_pred, y_val) * 100, 2)
+print(acc_logreg)
+>> 87.35
 {% endhighlight %}
 
 ---
-![Moon Homepage](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
+* Confusion Matrix
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/7.png)
+
+* Top 6 Influential Factors
+![Moon Homepage](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/8.png)
 
