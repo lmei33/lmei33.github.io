@@ -79,3 +79,18 @@ print(acc_logreg)
 * Top 6 Influential Factors
 ![8](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/8.png)
 
+
+## Conclusion
+### Based on the influtial factors analysis
+* Don't make them work overtime, they do care!
+* Communicate the vision 
+* Increase employee engagement, especially young employees
+* Enhance recognition and rewards programs - Stock option can be a good choice 
+* Create a pleasant workspace and increase satisfaction
+
+### Since the model still need improvement in predicting attrition...
+* Stay interview...
+   e.g.
+   “What kind of feedback or recognition would you like about your performance that you aren’t currently receiving?”
+
+* Survey or interview with employees that decided to leave, identify the things employees care.
