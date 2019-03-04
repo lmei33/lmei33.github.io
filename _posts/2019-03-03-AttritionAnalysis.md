@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 
-[Check out My Colab Notebook to find out the detailed process](https://colab.research.google.com/drive/16ApThe1fjet-1ezSugUQ6Z-uhqiFx6MI)
+[Check out My Colab Notebook in Github Repo](https://github.com/lmei33/trial/blob/master/Employee_Attrition_Analysis.ipynb)
 
 ![0](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
