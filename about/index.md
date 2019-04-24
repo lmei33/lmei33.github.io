@@ -7,12 +7,12 @@ comments: false
 
 
 ## WORK EXPERIENCE
-* HILTI | FINANCE & PRICING OPERATIONS                                     
+* HILTI | Finance & Pricing Operations                                     
   Business Analyst, Practicum Project
-* EBAY | CHINA ANALYTICS CENTER                                     
-  CRM Analytics Intern
-* NIKE | DIGITAL ANALYTICS                                     
+* EBAY | Customer Analytics(CAC)                                     
+  CRM Business Analyst
+* NIKE | Digital Analytics                                     
   Data Analytics Intern
-* CONVERSE | RETAIL PLANNING                                     
+* CONVERSE | Retail Planning                                     
   Operations Intern
 
