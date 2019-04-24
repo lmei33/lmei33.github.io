@@ -1,11 +1,11 @@
 # Site
 title:              Lan(Lissie) Mei
-bio:                'A Business Analytics candidate at UC Davis, with professional experience in digital marketing and customer analytics via retail and e-commerce. Keen to leverage strengths in exploratory data analysis, data visualization, SQL, R and Python in a challenging data analyst position.'
+bio:                'Lan is a focused MS in Business Analytics candidate at UC Davis, with relevant professional experience in digital marketing and customer analytics. Her previous experience at eBay, Nike and Converse have provided valuable insights into retailing and e-commerce.  She has proficient experience with SQL/NoSQL, R, Python, Stata, MS Office Suite, Tableau and Amazon Web Services (AWS), and is AWS Cloud Practitioner certified. She's keen to applying her skillsets and business acumen as a data analyst'
 description:        " "
 reading_time:       true
 words_per_minute:   200
 #logo:               'assets/img/profile.jpg'
-logo:               'assets/img/logo.png'
+logo:               'assets/img/22.jpg'
 background:         'assets/img/tokyo-tower_.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -45,7 +45,7 @@ github-url:         lmei33
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:          lan-mei
 #xing:              username
-instagram:          messe.lissie
+#instagram:          messe.lissie
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
