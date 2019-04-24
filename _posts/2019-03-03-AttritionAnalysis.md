@@ -14,6 +14,8 @@ comments: true
 
 CLICK HERE:
 [Colab Notebook Version](https://github.com/lmei33/trial/blob/master/Employee_Attrition_Analysis.ipynb)
+
+CLICK HERE:
 [Full PDF Version](https://github.com/lmei33/Miscellaneous/blob/master/Lan%20Mei%20-%20Final%20Project.pdf)
 
 
@@ -38,7 +40,7 @@ The general overview of data and correlations between different factors: Attrite
 
 #### Objective Factors
 The objective factors such as age, years at company and gender show patterns as:
-![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/objective.png) 
+![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/objective.PNG) 
 Focusing on the red area (distribution of Attrition), we can find that 'younger' employees (Age/
 YearsAtCompany) tend to attrite, which is not surprising. Also, those who have worked in more than 5
 companies tend to attrite. Gender has nearly no influence on attrition.
@@ -46,17 +48,17 @@ companies tend to attrite. Gender has nearly no influence on attrition.
 #### Return and Bonus
 Seen from the plot, we can identify that Income together with JobInvolvement strongly influence attrition. It is always those with similar job involvement but also with lower income tend to attrite.
 
-![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return.png)    
+![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return.PNG)    
 Stock Option affects attrition, and a small level of option will help retain the employees.
-![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return2.png)
+![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return2.PNG)
 
 #### Satisfaction
 It is obvious that employee with lower satisfaction in Job/Environment/Relationship tend to attrite.
-![5](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/satisfaction.png)
+![5](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/satisfaction.PNG)
 
 #### Model
 I split 22% of the data as test data, and find out that generally Logistic Regression showed the best accuracy with an accuracy score of 87.35. However, improvement is needed for the precision, because the model didn’t perform well in False Negative part (left bottom). The top 6 influential factors are as follows:
-![6](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/result.png)
+![6](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/result.PNG)
 See the original Python code here:
 
 ---
@@ -80,12 +82,6 @@ print(acc_logreg)
 {% endhighlight %}
 
 ---
-
-* Confusion Matrix
-![7](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/7.png)
-
-* Top 6 Influential Factors
-![8](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/8.png)
 
 
 ## Conclusion
