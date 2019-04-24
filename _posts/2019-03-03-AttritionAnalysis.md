@@ -12,44 +12,52 @@ tag:
 comments: true
 ---
 
-[CLICK HERE: Check out My Colab Notebook in Github Repo](https://github.com/lmei33/trial/blob/master/Employee_Attrition_Analysis.ipynb)
-
-![0](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
+CLICK HERE:
+[Colab Notebook Version](https://github.com/lmei33/trial/blob/master/Employee_Attrition_Analysis.ipynb)
+[Full PDF Version](https://github.com/lmei33/Miscellaneous/blob/master/Lan%20Mei%20-%20Final%20Project.pdf)
 
 
       
 ## Overview
 Attrition, in Human Resource terminology, refers to the phenomenon of the employees leaving the company. Employee attrition is always the focus of Human Resource Management. This project aims to  predict employee attrition and identify influtial factors to reduce employee attrition. 
 
-The original data is from IBM HR Analytics Employee Attrition & Performance:
-[Link to The Data set](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+The original data is from:
+[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+![0](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
-
-## Process  
+## Steps of Analysis  
 
 ### Data Ingest
+After Inspecting the dataset, I found that there is no null values in the data, which means the data is clean. I also created a dataset with categorical values casted to numeric values.
 
 ### EDA 
-* Attrition Proportion
-![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/1.png)    
+The general overview of data and correlations between different factors: Attrited employees account for 16% of the data; Only factor “Overtime” showed a strong correlation with the target: “Attrition”.
 
 * Attrition Factors Heatmap
-![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/2.png) 
+![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/2.png) 
 
-* Take a look at the objective factors
-![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/3.png) 
+#### Objective Factors
+The objective factors such as age, years at company and gender show patterns as:
+![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/objective.png) 
+Focusing on the red area (distribution of Attrition), we can find that 'younger' employees (Age/
+YearsAtCompany) tend to attrite, which is not surprising. Also, those who have worked in more than 5
+companies tend to attrite. Gender has nearly no influence on attrition.
 
-* Analysis on Monthly Income
-![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/4.png) 
-  Break the result by Job Involvement
-![5](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/5.png) 
+#### Return and Bonus
+Seen from the plot, we can identify that Income together with JobInvolvement strongly influence attrition. It is always those with similar job involvement but also with lower income tend to attrite.
 
-* Satisfaction
-![6](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/6.png)
+![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return.png)    
+Stock Option affects attrition, and a small level of option will help retain the employees.
+![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/return2.png)
 
+#### Satisfaction
+It is obvious that employee with lower satisfaction in Job/Environment/Relationship tend to attrite.
+![5](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/satisfaction.png)
 
-### Model
-After several trials, I chose Logistic Regression
+#### Model
+I split 22% of the data as test data, and find out that generally Logistic Regression showed the best accuracy with an accuracy score of 87.35. However, improvement is needed for the precision, because the model didn’t perform well in False Negative part (left bottom). The top 6 influential factors are as follows:
+![6](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/final/result.png)
+See the original Python code here:
 
 ---
 
@@ -68,7 +76,7 @@ logreg.fit(x_train, y_train)
 y_pred = logreg.predict(x_val)
 acc_logreg = round(accuracy_score(y_pred, y_val) * 100, 2)
 print(acc_logreg)
->> 87.35
+87.35
 {% endhighlight %}
 
 ---
