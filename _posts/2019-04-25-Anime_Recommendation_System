@@ -5,10 +5,10 @@ date:   2019-03-20
 excerpt: "Collaborative filtering recommendations based on Surprise Framework "
 project: true
 tag:
-- recommendation system 
-- collaborative filtering
+- RecommendationSystem 
+- CollaborativeFiltering
 - Surprise
-- Surprise Framework
+- SurpriseFramework
 - Anime
 - python
 comments: true
