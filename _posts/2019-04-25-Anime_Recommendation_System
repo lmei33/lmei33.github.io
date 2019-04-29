@@ -23,10 +23,10 @@ CLICK HERE:
 
       
 ## Overview
-Attrition, in Human Resource terminology, refers to the phenomenon of the employees leaving the company. Employee attrition is always the focus of Human Resource Management. This project aims to  predict employee attrition and identify influtial factors to reduce employee attrition. 
+Anime Recommendation is a project that create collaborative filtering recommendation using SVD in Surprise framework. The recommendation is based on user preference data from 25,451 users on 12,294 animes.
 
 The original data is from:
-[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+[Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database/home)
 ![0](https://mk0at44uvaxh7f73.kinstacdn.com/wp-content/uploads/2017/12/Topic-1.png)    
 
 ## Steps of Analysis  
