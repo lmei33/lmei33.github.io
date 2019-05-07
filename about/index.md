@@ -18,4 +18,4 @@ comments: false
 
 ## MORE LIFE
 * I like hiking and photography! Me at Big Basin:
-![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/hiking.PNG) 
+![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/hiking.jpg) 
