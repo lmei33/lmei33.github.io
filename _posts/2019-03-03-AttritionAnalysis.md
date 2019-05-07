@@ -2,7 +2,7 @@
 layout: post
 title:  "Attrition Analysis"
 date:   2019-02-20
-excerpt: "A project to predict employee attrition and identify influtial factors to reduce employee attrition."
+excerpt: "A project to predict employee attrition and identify influential factors to reduce employee attrition."
 project: true
 tag:
 - python 
