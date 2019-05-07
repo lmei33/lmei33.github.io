@@ -2,7 +2,7 @@
 layout: post
 title:  "Anime Recommendation System"
 date:   2019-03-20
-excerpt: "Collaborative filtering recommendations based on Surprise Framework "
+excerpt: "Collaborative filtering recommendations based on Py-Surprise Framework "
 project: true
 tag:
 - RecommendationSystem 
@@ -18,7 +18,7 @@ CLICK HERE:
 [Colab Notebook Version](https://github.com/lmei33/trial/blob/master/HW_7_Anime_Recommendations.ipynb)
 
 CLICK HERE:
-[Full PDF Version](https://github.com/lmei33/Miscellaneous/blob/master/Lan%20Mei%20-%20Final%20Project.pdf)
+[Full PDF Version](https://github.com/lmei33/Miscellaneous/blob/master/Anime%20Recommendation.pdf)
 
 
       
