@@ -27,28 +27,28 @@ Anime Recommendation is a project that create collaborative filtering recommenda
 
 The original data is from:
 [Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database/home)
-![0](https://github.com/lmei33/lmei33.github.io/tree/master/assets/img/anime/animetitle.PNG)    
+![0](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/anime/animetitle.PNG)    
 
 ## Steps of Analysis  
 
 ### Data Preprocessing
 Original dataset contains Anime.csv and Rating.csv, which is about the information of
 animes and user rating. After data cleaning, we got table rating and anime_mapping:
-![1](https://github.com/lmei33/lmei33.github.io/tree/master/assets/img/anime/anime1.PNG) 
+![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/anime/anime1.PNG) 
 
 
 From the barchart of the dataset, we can find that the rating is lower-rating-skewed. It seems that users are generous about their rating, with “8” as the most frequent rating score.
-![2](https://github.com/lmei33/lmei33.github.io/tree/master/assets/img/anime/anime2.PNG) 
+![2](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/anime/anime2.PNG) 
 
 
 ### Collaborative Filtering Recommendation 
 I used singular value decomposition (SVD) — one of the Matrix Factorization models for identifying latent factors. With 3-fold cross-validation, we got the mean RMSE/MAE.
 
-![3](https://github.com/lmei33/lmei33.github.io/tree/master/assets/img/anime/anime3.PNG) 
+![3](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/anime/anime3.PNG) 
 
 If we take user_id = 45 as an example, the above one is the animes with high ratings from the user, and the below one is what will be recommended based on collaborative filtering recommendation:
 
-![4](https://github.com/lmei33/lmei33.github.io/tree/master/assets/img/anime/anime4.PNG) 
+![4](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/anime/anime4.PNG) 
 
 
 ## Conclusion
