@@ -22,4 +22,4 @@ This is a story based on my true experience in the Practicum Project with our cl
 
 
 * Photo of 1st place winners:
-![0](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/Post/dataengi.jpg)  
+![0](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/Post/dataengi.png)  
