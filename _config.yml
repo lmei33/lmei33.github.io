@@ -4,8 +4,8 @@ bio:                'A creative place of Lissie. Find my projects in the button 
 description:        " "
 reading_time:       true
 words_per_minute:   200
-#logo:               'assets/img/profile.jpg'
-logo:               'assets/img/22.jpg'
+logo:               'assets/img/profile.jpg'
+#logo:               'assets/img/22.jpg'
 background:         'assets/img/tokyo-tower_.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
