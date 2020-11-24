@@ -7,6 +7,8 @@ comments: false
 
 
 ## WORK EXPERIENCE
+* Visa | Data Science & Engineering                                     
+  Data Scientist
 * HILTI | Finance & Pricing Operations                                     
   Business Analyst, Practicum Project
 * EBAY | Customer Analytics(CAC)                                     
@@ -17,5 +19,5 @@ comments: false
   Operations Intern
 
 ## MORE LIFE
-* I like hiking and photography! Me at Big Basin:
+* I like hiking and photo shooting! Me at Big Basin:
 ![1](https://raw.githubusercontent.com/lmei33/lmei33.github.io/master/assets/img/hiking.jpg) 
